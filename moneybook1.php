@@ -8,9 +8,9 @@
 
   <div id="header">
     <div id="header-container">
-      <div class="header-inner-container">
+      <header class="header-inner-container">
            <h1 class="logo"><img class="logo-image" src="moneybook_logo.png"></h1>
-      </div>
+      </header>
     </div>
   </div>
 
