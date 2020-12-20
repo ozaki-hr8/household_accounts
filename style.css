@@ -1,0 +1,187 @@
+/* header */
+#header{
+  background-color: white;
+}
+#header-container {
+  padding: 0;
+  position: relative;
+  z-index: 1;
+  height: 125px;
+  border-bottom: solid 1px #c8c7cc;
+}
+#header-container .header-inner-container {
+  width: 1200px;
+  margin: 0 auto;
+}
+#header-container .logo {
+  float: left;
+  padding: 15px 0 0 0;
+}
+#header-container .logo .logo-image {
+  width: 260px;
+  height: 34px;
+}
+/* 全体 */
+body {
+  text-align:center;
+  margin:0 auto;
+  background-color: rgb(93,137,153);
+}
+form{
+  margin: 0px auto;
+  padding-top: 50px;
+  width: 800px;
+  height: 700px;
+  background-color: white;
+}
+input{
+  margin:50px!important;
+  width:450px;
+  height:20px;
+  border: solid lightsteelblue 1px;
+  border-radius: 10px;
+  text-align: right;
+  padding-right: 30px;
+}
+input.nav{
+  margin: 0px 30px!important;
+  width:100px!important;
+  height:25px;
+  border: solid lightsteelblue 1px;
+  border-radius: 10px;
+  text-align: center;
+  padding-right: 0px;
+}
+input.multi{
+  margin: 35px!important;
+  width: 250px;
+  border: solid lightsteelblue 1px;
+  border-radius: 10px;
+}
+
+/* 3 */
+div.list3{
+  text-align:right;
+  margin: 30px 200px 20px 0px;
+}
+
+/* 5 */
+div.list5{
+  text-align:right;
+  margin: 0px 90px 20px 0px;
+}
+input.multi5{
+  margin: 35px!important;
+  width: 100px;
+  border: solid lightsteelblue 1px;
+  border-radius: 10px;
+}
+
+/* review */
+form.review{
+  height: 1400px;
+}
+hr{
+  border-top: solid lightsteelblue 1px;
+  margin:0px 5px 50px 5px;
+}
+
+/* 6〜 */
+div.rest{
+  border: solid lightsteelblue 3px;
+  padding: 10px;
+  width: 150px;
+  margin: 10px auto;
+}
+div.list{
+  text-align:right;
+  margin: 0px 80px 20px 0px;
+}
+div.list6{
+  text-align:left;
+  margin: 30px 0px 50px 260px;
+}
+
+/* leftnav */
+div.leftnav{
+  float: left;
+  width: 260px;
+  margin:30px;
+}
+div.mainarea{
+  margin: 0px auto;
+  padding-top: 50px;
+  float: left;
+  width: 800px;
+  height: 700px;
+  background-color: white;
+}
+form.cal{
+  margin: 0px;
+  padding:0px;
+  width: auto;
+  height:30px;
+  background-color: rgb(93,137,153);
+}
+input.cal{
+  margin: 0px!important;
+  width: auto;
+  height:20px;
+  padding: 0px 10px;
+  border-radius: 2px;
+  text-align: center;
+}
+table {
+  width: 100%;
+}
+table th {
+  background: #EEEEEE;
+}
+table th,table td {
+  border: 1px solid #CCCCCC;
+  text-align: center;
+  padding: 5px;
+}
+.today {
+background: #d9b200;
+}
+td.want{
+background: #8870a3;
+}
+div.dayrest{
+  font-family: arial black;
+  font-size:50px;
+  float:left;
+}
+div.dayrest1{
+  background-color: white;
+  border-top: 10px solid #d9b200;
+  padding:30px;
+  margin: 20px;
+}
+div.dayrest2{
+  background-color: white;
+  border-top: 10px solid #d9b200;
+  padding:30px;
+  margin: 20px;
+}
+div.resttxt{
+  float:left;
+  padding:30px 10px;
+}
+div.resttxtall{
+  height:60px;
+}
+
+/* rightnav */
+div.rightnav{
+  float: left;
+  width: 260px;
+  margin:50px 30px;
+}
+div.wallet{
+  border: solid white 3px;
+  padding: 10px;
+  width: 150px;
+  margin: 10px auto;
+}
