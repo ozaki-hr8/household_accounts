@@ -1,10 +1,9 @@
-<!DOCTYPE html>
-  <html>
-  <head>
+　<html>
+   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
     <title>大学生の夏休み家計簿</title>
-  </head>
+   </head>
 
   <div id="header">
     <div id="header-container">
