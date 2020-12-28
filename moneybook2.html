@@ -17,13 +17,13 @@
   <body>
     <?php
     $allmoney=$_POST['allmoney'];
-    print '<form method="post" action="moneybook3.html">';
-    print '<input type="hidden" name="allmoney" value="'.$allmoney.'">';
-    print '毎月の収入を入力<br>';
-    print '<input type="text" name="income">円<br>';
-    print '<input type="button" onclick="history.back()" value="戻る" class="nav">';
-    print '<input type="submit" value="次へ" class="nav">';
-    print '</form>';
     ?>
+    <form method="post" action="moneybook3.html">
+    <input type="hidden" name="allmoney" value="'.$allmoney.'">
+    毎月の収入を入力<br>
+    <input type="text" name="income">円<br>
+    <input type="button" onclick="history.back()" value="戻る" class="nav">
+    <input type="submit" value="次へ" class="nav">
+    </form>   
   </body>
 </html>
